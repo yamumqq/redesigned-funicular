@@ -41,6 +41,7 @@ while True:
     elif vibor == "4":
         if cifr2 == 0:
             print("Ошибка: Деление на ноль.")
+            continue
         rez = cifr1 / cifr2
         print("Результат: ", rez)
     elif vibor == "5":
